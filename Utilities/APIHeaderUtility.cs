@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsumerService.Utilities
 {
-    class APIHeaderUtility
+    public class APIHeaderUtility
     {
     }
 }
