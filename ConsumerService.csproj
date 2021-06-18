@@ -34,4 +34,8 @@
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CustomerService.Core\CustomerService.Core.csproj" />
+  </ItemGroup>
 </Project>
