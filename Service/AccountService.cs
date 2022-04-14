@@ -9,9 +9,15 @@ namespace ConsumerService.Service
     // Service checks account balance, Account fraud, Account Expenditure rate, Customer Commission rate 
     public class AccountService
     {
-        // Check Account balance every 5 mins interval
-        public void CheckAccountBalance()
+        public readonly string AccountRespository _respository;
+        public AccountService()
         {
+
+        }
+        // Check Account balance every 5 mins interval
+        public async void CheckAccountBalance()
+        {
+            var result = ""; 
         }
 
         public void CheckAccountFraud()
